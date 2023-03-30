@@ -1,7 +1,14 @@
+#banner {
+  width: 92%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .banner-wrapper {
   width: 1230px;
   height: 440px;
-  margin: 57px 0 122px 68px;
+  margin: 57px 0 122px 0px;
   display: flex;
   justify-content: space-between;
 
@@ -67,6 +74,7 @@
   }
 
   .banner-right {
+    width: 520px;
     position: relative;
     display: flex;
     align-items: center;
