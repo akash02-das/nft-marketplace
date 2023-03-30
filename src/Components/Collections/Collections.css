@@ -1,0 +1,168 @@
+#collections {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.collection-wrapper {
+  width: 1200px;
+  height: 540px;
+  display: flex;
+  justify-content: space-between;
+  margin: 134px 120px;
+}
+.collection-wrapper .collection-column1 {
+  width: 400px;
+}
+.collection-wrapper .collection-column1 .column1-bottom {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 32px;
+}
+.collection-wrapper .collection-column1 .column1-bottom .bottom-left {
+  margin-left: 10px;
+  margin-right: 65px;
+}
+.collection-wrapper .collection-column1 .column1-bottom .bottom-left h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.collection-wrapper .collection-column1 .column1-bottom .bottom-left p {
+  color: #363639;
+  font-size: 14px;
+  line-height: 18px;
+}
+.collection-wrapper .collection-column1 .column1-bottom .bottom-right {
+  padding: 10px 20px;
+}
+.collection-wrapper .collection-column1 .column1-bottom .bottom-right p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  margin: 5px 0px;
+}
+.collection-wrapper .collection-column1 .column1-bottom .bottom-right span {
+  display: flex;
+  align-items: center;
+  height: 22px;
+}
+.collection-wrapper .collection-column1 .column1-bottom .bottom-right span img {
+  width: 13px;
+  height: 21px;
+  margin-right: 10px;
+}
+.collection-wrapper .collection-column1 .column1-bottom .bottom-right span p {
+  font-size: 16px;
+  font-weight: 700;
+}
+.collection-wrapper .collection-column2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.collection-wrapper .card-wrapper {
+  width: 334px;
+  height: 147px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.collection-wrapper .card-wrapper img {
+  width: 147px;
+  height: 147px;
+}
+.collection-wrapper .card-wrapper .card-contents {
+  width: 167px;
+}
+.collection-wrapper .card-wrapper .card-contents h2 {
+  font-size: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 5px;
+}
+.collection-wrapper .card-wrapper .card-contents .right-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.collection-wrapper .card-wrapper .card-contents .right-content img {
+  width: 34px;
+  height: 34px;
+}
+.collection-wrapper .card-wrapper .card-contents .right-content .green-box {
+  width: 81px;
+  height: 32px;
+  color: #00ac4f;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2px;
+  border: 1px solid #00ac4f;
+  border-radius: 5px;
+  font-family: "DM Sans", sans-serif;
+}
+.collection-wrapper .card-wrapper .card-contents .right-content .green-box img {
+  width: 9px;
+  height: 14px;
+}
+.collection-wrapper .card-wrapper .card-contents .right-content .green-box span {
+  font-size: 12px;
+}
+.collection-wrapper .card-wrapper .card-contents .right-content span {
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+}
+.collection-wrapper .collection-column3 h2 {
+  font-size: 20px;
+  font-family: "Candal", sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.collection-wrapper .collection-column3 p {
+  color: #3d00b7;
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+.collection-wrapper .collection-column3 .top-collection {
+  width: 313px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 32px 0;
+}
+.collection-wrapper .collection-column3 .top-collection h4 {
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+}
+.collection-wrapper .collection-column3 .top-collection .ethereum {
+  display: flex;
+  align-items: center;
+  height: 22px;
+}
+.collection-wrapper .collection-column3 .top-collection .ethereum img {
+  width: 13px;
+  height: 21px;
+  margin-right: 10px;
+}
+.collection-wrapper .collection-column3 .top-collection .ethereum p {
+  color: #636363;
+  font-size: 14px;
+  font-weight: 600;
+}
+.collection-wrapper .collection-column3 .top-collection .percentage {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 21px;
+}/*# sourceMappingURL=Collections.css.map */
