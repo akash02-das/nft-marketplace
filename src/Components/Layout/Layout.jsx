@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/Layout.css";
+import "./Layout.css";
 
 const Layout = (props) => {
   return <div className="layout">{props.children}</div>;

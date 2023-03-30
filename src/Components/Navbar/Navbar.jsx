@@ -1,7 +1,7 @@
 import React from "react";
 
 import searchIcon from "../../Assets/search-icon.svg";
-import Button from "../../Utils/Button";
+import Button from "../../Utils/CustomButton/Button";
 import "./Navbar.css";
 
 const Navbar = () => {

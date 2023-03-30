@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Button.css";
 
-const SolidButton = ({
+const Button = ({
   text,
   width,
   height,
@@ -30,4 +30,4 @@ const SolidButton = ({
   );
 };
 
-export default SolidButton;
+export default Button;

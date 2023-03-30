@@ -1,0 +1,175 @@
+.banner-wrapper {
+  width: 1230px;
+  height: 440px;
+  margin: 57px 0 122px 68px;
+  display: flex;
+  justify-content: space-between;
+
+  .banner-left {
+    width: 612px;
+    height: 96px;
+
+    h1 {
+      font-size: 40px;
+      font-family: "Candal", sans-serif;
+      line-height: 48px;
+      letter-spacing: 0.05em;
+      margin: 15px 0 22px 52px;
+    }
+
+    p {
+      width: 471px;
+      height: 96px;
+      color: #565656;
+      font-size: 20px;
+      line-height: 32px;
+      font-family: "DM Sans", sans-serif;
+      font-weight: 400;
+      margin: 0 0 41px 52px;
+    }
+
+    .left-bottom {
+      position: relative;
+    }
+
+    span {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .count-wrapper {
+      display: flex;
+      position: absolute;
+      top: 80px;
+      left: 0;
+
+      .count-plus {
+        width: 116px;
+        height: 75px;
+        margin-right: 20px;
+
+        h1 {
+          font-size: 40px;
+          font-family: "Candal", sans-serif;
+          line-height: 48px;
+          letter-spacing: 0.05em;
+          margin-bottom: 0;
+        }
+
+        p {
+          font-size: 20px;
+          color: #565656;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+
+  .banner-right {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .unsplash-3 {
+      position: absolute;
+      right: 0px;
+    }
+
+    .unsplash-2 {
+      position: absolute;
+      right: 31px;
+    }
+
+    .unsplash-1 {
+      position: absolute;
+      right: 67px;
+    }
+
+    .live-auction {
+      position: absolute;
+      right: 400px;
+      top: 200px;
+    }
+
+    .top-info {
+      width: 250px;
+      position: absolute;
+      right: 195px;
+      top: 12px;
+
+      h2 {
+        color: #ffffff;
+        line-height: 36px;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 700;
+        margin-bottom: 5px;
+      }
+
+      .avatar-info {
+        width: 130px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+          width: 32px;
+          height: 33px;
+        }
+
+        h6 {
+          color: #ffffff;
+          font-size: 20px;
+          line-height: 26px;
+          font-family: "DM Sans", sans-serif;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .bottom-info {
+      position: absolute;
+      right: 95px;
+      bottom: 20px;
+      width: 348px;
+      height: 74px;
+      display: flex;
+      justify-content: space-between;
+      background-color: rgba(255, 255, 255, 0.25);
+      -webkit-backdrop-filter: blur(5px);
+      backdrop-filter: blur(5px);
+      border-radius: 10px;
+      color: #ffffff;
+      font-family: "DM Sans", sans-serif;
+
+      .bottom-child {
+        padding: 10px 20px;
+
+        p {
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 16px;
+          margin: 5px 0px;
+        }
+      }
+
+      span {
+        display: flex;
+        align-items: center;
+        height: 22px;
+
+        img {
+          width: 13px;
+          height: 21px;
+          margin-right: 10px;
+        }
+
+        p {
+          font-size: 16px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
