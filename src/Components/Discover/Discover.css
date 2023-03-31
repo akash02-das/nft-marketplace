@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#discover {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(217, 224, 236, 0.2);
+  -webkit-backdrop-filter: blur(25px);
+  backdrop-filter: blur(25px);
+}
+
+.discover-wrapper {
+  width: 1200px;
+  height: auto;
+  margin: 65px 120px;
+}
+.discover-wrapper h1 {
+  font-size: 34px;
+  font-family: "Candal", sans-serif;
+  font-weight: 700;
+  line-height: 41px;
+  text-transform: uppercase;
+}
+.discover-wrapper .category-filter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 36px 0;
+}
+.discover-wrapper .category-filter .categories {
+  width: 713px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.discover-wrapper .category-filter .filter {
+  display: flex;
+  align-items: center;
+  background-color: rgba(220, 220, 220, 0.2);
+  color: #371c87;
+  font-size: 14px;
+  border-radius: 100px;
+  padding: 10px 20px;
+  border: none;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.discover-wrapper .category-filter .filter span {
+  margin-left: 10px;
+}
+.discover-wrapper .category {
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  line-height: 17px;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.discover-wrapper .category:hover {
+  background: #3d00b7 !important;
+  color: #ffffff !important;
+}
+.discover-wrapper .card-items {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.discover-wrapper .card-items .card-wrapper {
+  width: 274px;
+  height: 373px;
+  background-color: #ffffff;
+  border: 2px solid rgba(242, 242, 242, 0.5);
+  border-radius: 14px;
+  position: relative;
+  margin-bottom: 40px;
+  transition: all 0.3s ease-in;
+}
+.discover-wrapper .card-items .card-wrapper:hover {
+  transform: scale(1.03);
+}
+.discover-wrapper .card-items .card-wrapper img {
+  width: 248px;
+  height: 222px;
+  margin: 11px 11px 22px 11px;
+}
+.discover-wrapper .card-items .card-wrapper .avatars {
+  position: relative;
+  width: 100px;
+  height: 31px;
+  bottom: 45px;
+  left: 20px;
+}
+.discover-wrapper .card-items .card-wrapper .avatars .avatar {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+.discover-wrapper .card-items .card-wrapper .avatars .avatar-img2 {
+  position: absolute;
+  right: 52px;
+}
+.discover-wrapper .card-items .card-wrapper .avatars .avatar-img3 {
+  position: absolute;
+  right: 34px;
+}
+.discover-wrapper .card-items .card-wrapper .avatars .avatar-img4 {
+  position: absolute;
+  right: 16px;
+}
+.discover-wrapper .card-items .card-wrapper h2 {
+  font-size: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  line-height: 19px;
+  margin: 10px 23px;
+  position: absolute;
+  bottom: 92px;
+  margin: 0 23px;
+}
+.discover-wrapper .card-items .card-wrapper .ethereum-contents {
+  width: 85%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px 0 12px;
+}
+.discover-wrapper .card-items .card-wrapper .ethereum-contents .ethereum {
+  width: 81px;
+  height: 32px;
+  color: #00ac4f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "DM Sans", sans-serif;
+}
+.discover-wrapper .card-items .card-wrapper .ethereum-contents .ethereum img {
+  width: 9px;
+  height: 14px;
+  margin-bottom: 13px;
+}
+.discover-wrapper .card-items .card-wrapper .ethereum-contents .ethereum span {
+  font-size: 12px;
+}
+.discover-wrapper .card-items .card-wrapper .ethereum-contents .number {
+  color: #838383;
+  font-size: 13px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  line-height: 19;
+}
+.discover-wrapper .card-items .card-wrapper .divider {
+  width: 223px;
+  border: 1.06366px dashed #f4f4f4;
+  margin: 12px auto 8px auto;
+}
+.discover-wrapper .card-items .card-wrapper .card-bottom {
+  width: 85%;
+  margin: 0 20px 0 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.discover-wrapper .card-items .card-wrapper .card-bottom .left-time {
+  width: 97px;
+  height: 29px;
+  background: #f5f5f5;
+  color: #5539a8;
+  border-radius: 110px;
+  font-size: 10px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+.discover-wrapper .card-items .card-wrapper .card-bottom .bid {
+  color: #4f33a3;
+  font-size: 15px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  cursor: pointer;
+}
+.discover-wrapper .more-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=Discover.css.map */

@@ -1,5 +1,6 @@
 import AmazeNft from "./Components/AmazeNft/AmazeNft";
 import Collections from "./Components/Collections/Collections";
+import Discover from "./Components/Discover/Discover";
 import Featured from "./Components/Featured/Featured";
 import Banner from "./Components/HeroBanner/Banner";
 import SignUp from "./Components/SignUp/SignUp";
@@ -13,6 +14,7 @@ function App() {
       <Collections />
       <Featured />
       <SignUp />
+      <Discover />
     </>
   );
 }

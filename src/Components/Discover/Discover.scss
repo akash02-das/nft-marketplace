@@ -1,0 +1,223 @@
+@import "src/Styles/App.scss";
+
+#discover {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $background;
+  -webkit-backdrop-filter: $backdrop-filter;
+  backdrop-filter: $backdrop-filter;
+}
+
+.discover-wrapper {
+  width: 1200px;
+  height: auto;
+  margin: 65px 120px;
+
+  h1 {
+    font-size: 34px;
+    font-family: $secondary;
+    font-weight: 700;
+    line-height: 41px;
+    text-transform: uppercase;
+  }
+
+  .category-filter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 36px 0;
+
+    .categories {
+      width: 713px;
+      height: 38px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .filter {
+      display: flex;
+      align-items: center;
+      background-color: rgba(220, 220, 220, 0.2);
+      color: #371c87;
+      font-size: 14px;
+      border-radius: 100px;
+      padding: 10px 20px;
+      border: none;
+      text-transform: capitalize;
+      cursor: pointer;
+
+      span {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .category {
+    font-size: 14px;
+    font-family: $primary;
+    font-weight: 500;
+    line-height: 17px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+    &:hover {
+      background: #3d00b7 !important;
+      color: #ffffff !important;
+    }
+  }
+
+  .card-items {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    .card-wrapper {
+      width: 274px;
+      height: 373px;
+      background-color: $white;
+      border: 2px solid rgba(242, 242, 242, 0.5);
+      border-radius: 14px;
+      position: relative;
+      margin-bottom: 40px;
+      transition: all 0.3s ease-in;
+
+      &:hover {
+        transform: scale(1.03);
+      }
+
+      img {
+        width: 248px;
+        height: 222px;
+        margin: 11px 11px 22px 11px;
+      }
+
+      .avatars {
+        position: relative;
+        width: 100px;
+        height: 31px;
+        bottom: 45px;
+        left: 20px;
+
+        .avatar {
+          width: 30px;
+          height: 30px;
+          margin: 0;
+        }
+
+        .avatar-img2 {
+          position: absolute;
+          right: 52px;
+        }
+
+        .avatar-img3 {
+          position: absolute;
+          right: 34px;
+        }
+
+        .avatar-img4 {
+          position: absolute;
+          right: 16px;
+        }
+      }
+
+      h2 {
+        font-size: 20px;
+        font-family: $primary;
+        font-weight: 700;
+        line-height: 19px;
+        margin: 10px 23px;
+        position: absolute;
+        bottom: 92px;
+        margin: 0 23px;
+      }
+
+      .ethereum-contents {
+        width: 85%;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 20px 0 12px;
+
+        .ethereum {
+          width: 81px;
+          height: 32px;
+          color: #00ac4f;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-family: $primary;
+
+          img {
+            width: 9px;
+            height: 14px;
+            margin-bottom: 13px;
+          }
+
+          span {
+            font-size: 12px;
+          }
+        }
+
+        .number {
+          color: #838383;
+          font-size: 13px;
+          font-family: $primary;
+          font-weight: 500;
+          line-height: 19;
+        }
+      }
+
+      .divider {
+        width: 223px;
+        border: 1.06366px dashed #f4f4f4;
+        margin: 12px auto 8px auto;
+      }
+
+      .card-bottom {
+        width: 85%;
+        margin: 0 20px 0 18px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left-time {
+          width: 97px;
+          height: 29px;
+          background: #f5f5f5;
+          color: #5539a8;
+          border-radius: 110px;
+          font-size: 10px;
+          font-family: $primary;
+          font-weight: 700;
+          line-height: 28px;
+          text-align: center;
+        }
+
+        .bid {
+          color: #4f33a3;
+          font-size: 15px;
+          font-family: $primary;
+          font-weight: 500;
+          line-height: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .more-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
