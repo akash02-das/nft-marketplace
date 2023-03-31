@@ -74,7 +74,7 @@ const SignUp = () => {
             bgColor="#3d00b7"
             color="#ffffff"
             margin=""
-            padding="20px 39px"
+            padding="20px 44px"
           />
         </div>
       </div>

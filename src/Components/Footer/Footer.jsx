@@ -64,7 +64,7 @@ const Footer = () => {
                 bgColor="#2639ED"
                 color="#ffffff"
                 margin=""
-                padding="20px 27px"
+                padding="20px 25px"
               />
             </div>
           </div>

@@ -28,7 +28,7 @@ const CollectionCard = ({ image }) => {
           bgColor="#ffffff"
           color="#3d00b7"
           margin="10px 0"
-          padding="14px 19px"
+          padding="14px 22px"
         />
       </div>
     </div>

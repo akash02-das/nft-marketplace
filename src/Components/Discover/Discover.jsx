@@ -76,7 +76,7 @@ const Discover = () => {
             bgColor="#ffffff"
             color="#3d00b7"
             margin=""
-            padding="20px 39px"
+            padding="20px 37px"
           />
         </div>
       </div>

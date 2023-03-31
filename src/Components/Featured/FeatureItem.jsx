@@ -35,7 +35,7 @@ const FeatureItem = () => {
             bgColor=""
             color="#2639ED"
             margin="0 15px"
-            padding="10px 6px"
+            padding="10px 9px"
           />
         </div>
       </div>

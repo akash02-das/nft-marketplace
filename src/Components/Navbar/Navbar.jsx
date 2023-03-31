@@ -31,7 +31,7 @@ const Navbar = () => {
           bgColor="#3d00b7"
           color="#ffffff"
           margin="0 20px"
-          padding="18px 40px"
+          padding="18px 42px"
         />
         <Button
           text="connect wallet"
@@ -41,7 +41,7 @@ const Navbar = () => {
           bgColor="#ffffff"
           color="#3d00b7"
           margin=""
-          padding="18px 19px"
+          padding="18px 23px"
         />
       </div>
       <div className="nav-border"></div>
