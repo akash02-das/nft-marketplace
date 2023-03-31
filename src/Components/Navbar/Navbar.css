@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .navbar-wrapper {
   width: 100%;
   height: 110px;
@@ -13,7 +19,7 @@
   font-style: normal;
   font-family: "Candal", sans-serif;
   line-height: 29px;
-  color: #3d00b7;
+  color: "DM Sans", sans-serif;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -35,7 +41,7 @@
   line-height: 21px;
   text-transform: capitalize;
   letter-spacing: 0.04em;
-  color: #000000;
+  color: "Candal", sans-serif;
 }
 .navbar-wrapper .search-bar {
   width: 300px;

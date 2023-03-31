@@ -1,3 +1,5 @@
+@import "src/Styles/App.scss";
+
 #banner {
   width: 92%;
   display: flex;
@@ -17,8 +19,9 @@
     height: 96px;
 
     h1 {
-      font-size: 40px;
-      font-family: "Candal", sans-serif;
+      font-size: 39px;
+      font-family: $secondary;
+      text-transform: uppercase;
       line-height: 48px;
       letter-spacing: 0.05em;
       margin: 15px 0 22px 52px;
@@ -30,7 +33,7 @@
       color: #565656;
       font-size: 20px;
       line-height: 32px;
-      font-family: "DM Sans", sans-serif;
+      font-family: $primary;
       font-weight: 400;
       margin: 0 0 41px 52px;
     }
@@ -58,7 +61,7 @@
 
         h1 {
           font-size: 40px;
-          font-family: "Candal", sans-serif;
+          font-family: $secondary;
           line-height: 48px;
           letter-spacing: 0.05em;
           margin-bottom: 0;
@@ -107,9 +110,9 @@
       top: 12px;
 
       h2 {
-        color: #ffffff;
+        color: $white;
         line-height: 36px;
-        font-family: "DM Sans", sans-serif;
+        font-family: $primary;
         font-weight: 700;
         margin-bottom: 5px;
       }
@@ -127,10 +130,10 @@
         }
 
         h6 {
-          color: #ffffff;
+          color: $white;
           font-size: 20px;
           line-height: 26px;
-          font-family: "DM Sans", sans-serif;
+          font-family: $primary;
           font-weight: 700;
         }
       }
@@ -148,8 +151,8 @@
       -webkit-backdrop-filter: blur(5px);
       backdrop-filter: blur(5px);
       border-radius: 10px;
-      color: #ffffff;
-      font-family: "DM Sans", sans-serif;
+      color: $white;
+      font-family: $primary;
 
       .bottom-child {
         padding: 10px 20px;

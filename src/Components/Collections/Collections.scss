@@ -1,3 +1,5 @@
+@import "src/Styles/App.scss";
+
 #collections {
   width: 100%;
   display: flex;
@@ -20,7 +22,7 @@
       height: 48px;
       display: flex;
       align-items: center;
-      font-family: "DM Sans", sans-serif;
+      font-family: $primary;
       margin-top: 32px;
 
       .bottom-left {
@@ -93,7 +95,7 @@
 
       h2 {
         font-size: 20px;
-        font-family: "DM Sans", sans-serif;
+        font-family: $primary;
         font-weight: 700;
         line-height: 26px;
         margin-bottom: 5px;
@@ -119,7 +121,7 @@
           padding: 2px;
           border: 1px solid #00ac4f;
           border-radius: 5px;
-          font-family: "DM Sans", sans-serif;
+          font-family: $primary;
 
           img {
             width: 9px;
@@ -133,7 +135,7 @@
 
         span {
           font-size: 14px;
-          font-family: "DM Sans", sans-serif;
+          font-family: $primary;
         }
       }
     }
@@ -142,7 +144,7 @@
   .collection-column3 {
     h2 {
       font-size: 20px;
-      font-family: "Candal", sans-serif;
+      font-family: $secondary;
       font-weight: 700;
       line-height: 24px;
       text-transform: uppercase;
@@ -150,9 +152,9 @@
     }
 
     p {
-      color: #3d00b7;
+      color: $primary;
       font-size: 18px;
-      font-family: "DM Sans", sans-serif;
+      font-family: $primary;
       font-weight: 700;
     }
 
@@ -166,7 +168,7 @@
 
       h4 {
         font-size: 16px;
-        font-family: "DM Sans", sans-serif;
+        font-family: $primary;
         font-weight: 500;
       }
 

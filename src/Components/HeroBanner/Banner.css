@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 #banner {
   width: 92%;
   display: flex;
@@ -17,8 +23,9 @@
   height: 96px;
 }
 .banner-wrapper .banner-left h1 {
-  font-size: 40px;
+  font-size: 39px;
   font-family: "Candal", sans-serif;
+  text-transform: uppercase;
   line-height: 48px;
   letter-spacing: 0.05em;
   margin: 15px 0 22px 52px;
