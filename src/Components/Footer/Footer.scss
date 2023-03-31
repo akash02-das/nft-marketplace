@@ -1,0 +1,160 @@
+@import "src/Styles/App.scss";
+
+#footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-wrapper {
+  width: 1200px;
+  height: 300px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 80px 120px 24px 120px;
+
+  .contact {
+    width: 333px;
+    height: 190px;
+
+    h2 {
+      font-size: 24px;
+      font-family: $secondary;
+      font-weight: 700;
+      line-height: 29px;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 14px;
+      font-weight: $primary;
+      font-weight: 400;
+      line-height: 22px;
+      color: #565656;
+      margin: 27px 0 32px 0;
+    }
+
+    .links {
+      width: 140px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  .market-place {
+    width: 113px;
+    height: 243px;
+
+    h4 {
+      font-size: 18px;
+      font-family: $primary;
+      font-weight: 700;
+      line-height: 23px;
+      text-transform: capitalize;
+      margin-bottom: 24px;
+    }
+
+    .market {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        font-size: 14px;
+        font-family: $primary;
+        font-weight: 500;
+        line-height: 28px;
+        color: #3d3d3d;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .my-account {
+    width: 113px;
+    height: 243px;
+
+    h4 {
+      font-size: 18px;
+      font-family: $primary;
+      font-weight: 700;
+      line-height: 23px;
+      text-transform: capitalize;
+      margin-bottom: 24px;
+    }
+
+    .account {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        font-size: 14px;
+        font-family: $primary;
+        font-weight: 500;
+        line-height: 28px;
+        color: #3d3d3d;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .stay-loop {
+    width: 364px;
+    height: 200px;
+
+    h4 {
+      font-size: 18px;
+      font-family: $primary;
+      font-weight: 700;
+      line-height: 23px;
+      text-transform: capitalize;
+    }
+
+    p {
+      color: #363639;
+      font-size: 14px;
+      font-family: $primary;
+      font-weight: 400;
+      line-height: 22px;
+      margin: 24px 0;
+    }
+
+    .subscribe {
+      width: 364px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #ffffff;
+      border: 2px solid #f1f1f1;
+      border-radius: 46px;
+      padding: 5px;
+
+      input {
+        border: none;
+        outline-style: none;
+        margin-left: 15px;
+        height: 30px;
+      }
+    }
+  }
+}
+
+.border {
+  width: 80%;
+  border: 1px solid #f4f4f4;
+  margin: 20px auto;
+}
+
+.copyright {
+  width: 100%;
+  height: 20px;
+  font-size: 14px;
+  color: #a4a4a4;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 30px;
+}
