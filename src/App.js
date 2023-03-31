@@ -1,3 +1,4 @@
+import React from "react";
 import AmazeNft from "./Components/AmazeNft/AmazeNft";
 import Collections from "./Components/Collections/Collections";
 import Discover from "./Components/Discover/Discover";
